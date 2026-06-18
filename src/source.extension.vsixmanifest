@@ -24,5 +24,12 @@
     <Assets>
         <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="Project" d:ProjectName="%CurrentProject%" Path="|%CurrentProject%;PkgdefProjectOutputGroup|" />
         <Asset Type="Microsoft.VisualStudio.MefComponent" d:Source="Project" d:ProjectName="%CurrentProject%" Path="|%CurrentProject%|" />
+        <Asset Type="Microsoft.VisualStudio.Assembly" d:Source="File" Path="Svg.dll" />
+        <Asset Type="Microsoft.VisualStudio.Assembly" d:Source="File" Path="ExCSS.dll" />
+        <Asset Type="Microsoft.VisualStudio.Assembly" d:Source="File" Path="Fizzler.dll" />
+        <Asset Type="Microsoft.VisualStudio.Assembly" d:Source="File" Path="System.Buffers.dll" />
+        <Asset Type="Microsoft.VisualStudio.Assembly" d:Source="File" Path="System.Memory.dll" />
+        <Asset Type="Microsoft.VisualStudio.Assembly" d:Source="File" Path="System.Numerics.Vectors.dll" />
+        <Asset Type="Microsoft.VisualStudio.Assembly" d:Source="File" Path="System.Runtime.CompilerServices.Unsafe.dll" />
     </Assets>
 </PackageManifest>
